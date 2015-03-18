@@ -1,6 +1,7 @@
-public class Node
+public abstract class Node
 {
 	/* type of node
+	TODO explain types
 	*/
 	int type;
 
@@ -17,8 +18,5 @@ public class Node
 	Node neighbor6;
 
 	//reveal the node and trigger any events upon revealing
-	void reveal()
-	{
-		//TODO
-	}//end reveal()
+	void reveal();
 }//end class Node
